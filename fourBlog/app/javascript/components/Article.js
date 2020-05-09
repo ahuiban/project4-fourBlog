@@ -30,6 +30,12 @@ class Article extends React.Component {
       self.forceUpdate();
     }, 1000);
   }
+  componentWillUnmount() {
+    if (this._timer) {
+      clearInterval(this._timer);
+      this._timer = null;
+    }
+  }
 }
 
 Article.propTypes = {

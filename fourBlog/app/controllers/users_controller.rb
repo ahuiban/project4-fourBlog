@@ -38,6 +38,7 @@ class UsersController < ApplicationController
     @user_articles = @user.articles.paginate(page: params[:page], per_page: 5)
   end
   
+  
   def destroy
     @user = User.find(params[:id])
     @user.destroy
@@ -45,7 +46,7 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
   
-  private
+  private 
   
   def set_user
     @user = User.find(params[:id])

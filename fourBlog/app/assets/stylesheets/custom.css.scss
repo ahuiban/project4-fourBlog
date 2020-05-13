@@ -1,4 +1,4 @@
-$navbar-default-bg: black;
+$navbar-default-bg: #43464b;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -22,7 +22,7 @@ $navbar-default-bg: black;
 }
 
 .jumbotron {
-  background-image: asset-url('sunset.jpeg');
+  background-image: asset-url("sunset.jpeg");
   background-size: cover;
   color: invert($navbar-default-bg);
   height: 470px;
@@ -97,7 +97,7 @@ footer ul li {
 }
 
 .badge {
-  background-color: #CEF6F5;
+  background-color: #cef6f5;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;

@@ -5,9 +5,11 @@
 TBD - via Heroku
 
 ## Technologies used
-
-- Rails backend
-- React frontend
+- HTML
+- CSS
+- Javascript
+- Ruby on Rails
+- React
 
 ## User stories
 
